@@ -2,15 +2,17 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body {
+    background-color: rgb(205, 225, 243);
+}
+
+
 .center {
     border: 10px solid #FFF;
     border-radius: 15px;
-    color: #000000;
     background-color: rgb(255, 255, 255);
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
     height: 425px;
     width: 275px;
     position: relative;
@@ -27,10 +29,6 @@
     width: 250px;
     margin-top: 5%;
     content: url(./images/image-qr-code.png);
-}
-
-body {
-    background-color: rgb(205, 225, 243);
 }
 
 .upper {
