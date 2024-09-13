@@ -6,13 +6,16 @@ body {
     background-color: rgb(205, 225, 243);
 }
 
+div.center,
+div.qr {
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .center {
     border: 10px solid #FFF;
-    border-radius: 15px;
     background-color: rgb(255, 255, 255);
-    margin-left: auto;
-    margin-right: auto;
     height: 425px;
     width: 275px;
     position: relative;
@@ -21,26 +24,24 @@ body {
 
 .qr {
     border: 1px solid rgb(75, 137, 231);
-    border-radius: 15px;
     background-color: rgb(66, 130, 226);
-    margin-left: auto;
-    margin-right: auto;
     height: 250px;
     width: 250px;
     margin-top: 5%;
     content: url(./images/image-qr-code.png);
 }
 
-.upper {
-    font-weight: bold;
+div p {
     text-align: center;
     position: relative;
+}
+
+.upper {
+    font-weight: bold;
     top: 10px;
 }
 
 .lower {
-    text-align: center;
-    position: relative;
     top: 35px;
     color: rgb(133, 136, 139)
 }
